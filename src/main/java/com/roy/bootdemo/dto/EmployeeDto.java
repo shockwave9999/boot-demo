@@ -4,6 +4,11 @@ import java.util.Objects;
 
 public class EmployeeDto {
 
+    public EmployeeDto(String name, String orgName) {
+        this.name = name;
+        this.orgName = orgName;
+    }
+
     String name;
     String orgName;
 
